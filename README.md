@@ -22,13 +22,6 @@ pip install pyinstaller
 pyinstaller --onefile --noconsole --add-data "alarm.wav;." alarmclock.py
 The `.exe` will appear inside the `dist/` folder.
 
-## Repository Structure
-Alarm Clock/
-│
-├── alarmclock.py # Main Python script
-├── alarm.wav # Alarm sound file
-└── README.md # Project documentation
-
 
 ## License
 This project is open-source and free to use.
