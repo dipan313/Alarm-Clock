@@ -28,7 +28,7 @@ pygame.mixer.init()
 
 # Replace threading/playsound with this
 def play_sound():
-    pygame.mixer.music.load("PYTHON/alarm.wav")
+    pygame.mixer.music.load("alarm.wav")
     pygame.mixer.music.play(loops=0)
 
 def stop_sound():
